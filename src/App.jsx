@@ -1,19 +1,7 @@
-import Counter from "./Counter";
-import CounterButtons from "./CounterButtons";
-import ResetButton from "./ResetButton";
-import Title from "./Title";
+import Card from "./Card";
 
 function App() {
-  return (
-    <main>
-      <div>
-        <Title />
-        <Counter />
-        <ResetButton />
-        <CounterButtons />
-      </div>
-    </main>
-  );
+  return <Card />;
 }
 
 export default App;
